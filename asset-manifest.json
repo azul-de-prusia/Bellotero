@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Bellotero/static/css/main.dc977176.chunk.css",
+    "main.js": "/Bellotero/static/js/main.e4f581b8.chunk.js",
+    "main.js.map": "/Bellotero/static/js/main.e4f581b8.chunk.js.map",
+    "runtime-main.js": "/Bellotero/static/js/runtime-main.4dfa7dd8.js",
+    "runtime-main.js.map": "/Bellotero/static/js/runtime-main.4dfa7dd8.js.map",
+    "static/js/2.a64c61df.chunk.js": "/Bellotero/static/js/2.a64c61df.chunk.js",
+    "static/js/2.a64c61df.chunk.js.map": "/Bellotero/static/js/2.a64c61df.chunk.js.map",
+    "index.html": "/Bellotero/index.html",
+    "precache-manifest.f469357df1f966389c0add8c99177836.js": "/Bellotero/precache-manifest.f469357df1f966389c0add8c99177836.js",
+    "service-worker.js": "/Bellotero/service-worker.js",
+    "static/css/main.dc977176.chunk.css.map": "/Bellotero/static/css/main.dc977176.chunk.css.map",
+    "static/js/2.a64c61df.chunk.js.LICENSE.txt": "/Bellotero/static/js/2.a64c61df.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dfa7dd8.js",
+    "static/js/2.a64c61df.chunk.js",
+    "static/css/main.dc977176.chunk.css",
+    "static/js/main.e4f581b8.chunk.js"
+  ]
+}
