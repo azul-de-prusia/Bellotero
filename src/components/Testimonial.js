@@ -1,17 +1,17 @@
-
-
 import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {useSelector,useDispatch} from 'react-redux'
 import { obtenerProductosAction} from '../actions/productoActions'
+import Title from './page1';
+import Review from './Review';
 
 const Testimonial = () => {
 
      return (
-         
-          <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-          </nav>
-             
+         <div>
+               <Title/>
+               <Review/>
+          </div>
      );
 }
 
