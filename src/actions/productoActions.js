@@ -5,6 +5,7 @@ import {
      COMENZAR_DESCARGA_PRODUCTOS,
      DESCARGA_PRODUCTOS_EXITO,
      DESCARGA_PRODUCTOS_ERROR
+
  } from '../types'; 
 
  import clienteAxios from '../config/axios';
@@ -74,6 +75,7 @@ const agregarProductoExito = producto => ({
           try {
                const respuesta = await clienteAxios.get('/app.json')
                dispatch( descargarProductosExitosa(respuesta.data.menu.items))
+
                //console.log(respuesta.data.menu.items)
           } catch (error) {
                //console.log(error)
@@ -94,3 +96,7 @@ const agregarProductoExito = producto => ({
       type: DESCARGA_PRODUCTOS_ERROR,
       payload: true
  })
+
+
+ //review
+  //review

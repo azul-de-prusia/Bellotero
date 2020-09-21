@@ -17,7 +17,7 @@ const Header = () => {
      )
      // obtener el state
      const productos = useSelector( state => state.productos.productos)
-     console.log(productos)
+
      return (
           <Fragment>
           <nav class="navbar navbar-expand-lg navbar-light bg-white" >

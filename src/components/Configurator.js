@@ -1,13 +1,15 @@
 
 import React from 'react';
+import Text2 from './Text2';
+import '../index.css';
+
 
 
 const Configurator = () => {
 
      return (
-          <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-          </nav>
-             
+          
+                         <Text2/>
      );
 }
 

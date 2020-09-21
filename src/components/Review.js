@@ -1,22 +1,19 @@
 import React, { Fragment, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import {useSelector,useDispatch} from 'react-redux'
-import { obtenerProductosAction} from '../actions/productoActions'
+
 
 
 const Review = () => {
-
+     //const {name, position} = val1
      return (
          
           <div className="review">
                  
                     <ul >
                          <li >
-                         <p className="name">Nombre</p>
+                         <p className="name">Pete Zahut</p>
                          </li>
-                         <li>
-                         <p className="nickname">Nombre gris</p>
-                         </li>
+                         <p className="nickname">Chief @ Maniak</p>
+                         
                     </ul>
           
                     <ul>

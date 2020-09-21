@@ -1,11 +1,11 @@
 import React, { Fragment, useEffect } from 'react';
 import '../index.css';
 
-const Title = () => {
-
+const Title = ({reviews}) => {
+     const reviews1= reviews
      return (
          
-          <div className="title">HASDJKCOKLÑDFLÑS</div>
+          <div className="title">Our customers love us</div>
              
      );
 }
